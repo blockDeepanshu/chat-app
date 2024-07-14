@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    // ...
+    "esModuleInterop": true,
+     "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    }
+    // ...
+  }
+}
